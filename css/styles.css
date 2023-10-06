@@ -580,7 +580,9 @@ fill:  #f4f4fd ;
 
 /* Modal*/
  .backdrop {
-  position: fixed;
+ position: fixed;
+
+
   inset: 0;
 
   display: flex;
@@ -599,10 +601,12 @@ pointer-events: none;
 
 }
 .modal{
-  position: ralatove;
+      position: absolute;
+    top: 50%; 
+left: 50%; 
 
- /* background-color: var(--c-background-light);*/
-  padding:48;
+ /* background-color: var(--c-background-light);
+  padding:48;*/
   transform: scale(1);
 
    width: 408px; 
