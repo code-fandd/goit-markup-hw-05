@@ -718,16 +718,67 @@ letter-spacing: 0.32px;
 .modal-close:hover .icon-close{
    fill: #ffffff;
 }
+.modal-close:focus .icon-close{
+   fill: #ffffff;
+}
 .user-name-class:focus{
   border-color: #4D5AE5;
 }
 .user-name-class:focus .icon-person{
     fill: #4D5AE5; 
  }
+ .user-check-div{
+  margin-bottom: 16px;
+ }
+.user-privacy-clas{
 
-.modal-close:focus .icon-close{
-   fill: #ffffff;
+    font-size: 12px; 
+  line-height: 1.17; 
+  letter-spacing: 0.04em; 
+  color: #8e8f99; 
 }
+.user-privacy-span{
+   width: 16px;
+
+height: 16px;
+ border: 1px solid rgba(46, 47, 66, 0.4);
+ border-radius: 2px; 
+ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+ display: inline-flex; 
+
+ align-items: center; 
+
+ justify-content: center; 
+
+ fill: transparent; 
+}
+
+.user-button{
+    display: block;
+    min-width: 169px;
+    height: 56px ;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5 для;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none; 
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5 ;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 4px; 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+
 
 
 
