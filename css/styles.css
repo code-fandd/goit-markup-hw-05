@@ -558,11 +558,7 @@ cursor: pointer; для визначення типу курсору на кно
   position: absolute;
   top: 10%;
   left: 25%;
-
-  /* background-color: var(--c-background-light);
-  padding:48;*/
   transform: scale(1);
-
   width: 408px;
   min-height: 584px;
   background: #fcfcfc;
