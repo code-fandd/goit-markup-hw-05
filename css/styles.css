@@ -556,8 +556,8 @@ cursor: pointer; для визначення типу курсору на кно
 }
 .modal {
   position: absolute;
-  top: 10%;
-  left: 25%;
+  top: 50%;
+  left: 50%;
   transform: scale(1);
   width: 408px;
   min-height: 584px;
@@ -611,6 +611,12 @@ cursor: pointer; для визначення типу курсору на кно
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.user-name-class:focus {
+  outline: none;
+  border-color: #4d5ae5;
+}
+
 .icon-person {
   position: absolute;
   left: 16px;
@@ -666,9 +672,7 @@ cursor: pointer; для визначення типу курсору на кно
 .modal-close:focus .icon-close {
   fill: #ffffff;
 }
-.user-name-class:focus {
-  border-color: #4d5ae5;
-}
+
 .user-name-class:focus .icon-person {
   fill: #4d5ae5;
 }
