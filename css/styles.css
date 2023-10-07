@@ -678,6 +678,18 @@ letter-spacing: 0.32px;
   border-color: #4D5AE5;
 
 }
+.user-comment-class{
+   height: 120px; 
+
+ font-size: 12px; 
+
+ line-height: 1.17; 
+
+ letter-spacing: 0.04em; 
+ color: rgba(46, 47, 66, 0.4); 
+ padding: 8px 16px; 
+ resize: none; 
+}
 .modal-close{
   position: absolute; 
   top: 24px; 
