@@ -737,7 +737,7 @@ cursor: pointer; для визначення типу курсору на кно
   gap: 24px;
 }
 
-.sub-in {
+.sub-in-class {
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
@@ -771,3 +771,5 @@ cursor: pointer; для визначення типу курсору на кно
   margin-left: 16px;
 }
 /**/
+.sub-lab-name {
+}

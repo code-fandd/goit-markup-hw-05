@@ -456,19 +456,23 @@
             </li>
           </ul>
         </div>
-        <!-- Forma-->
-        <div>
+        <!-- Forma sub-->
+        <div class="sub-conteiner">
           <p class="sub">Subscribe</p>
+
           <form name="sub-form-name" class="sub-form">
-            <label for="sub-in-name">
+            <label for="sub-in-name" class="sub-lab-name">
               <input
                 type="email"
                 id="sub-in-name"
                 placeholder="E-mail"
                 class="sub-in-class"
+                name="sub-in-name"
+                ;
               />
             </label>
-            <button type="submit" class="sub-but-class">
+
+            <button type="submit" class="sub-but">
               Subscribe
               <svg width="24" height="24" class="sub-svg-class">
                 <use href="./images/icons.svg#icon-Frame-31"></use>
@@ -479,9 +483,8 @@
       </div>
     </footer>
     <!-- Modal-->
-    <!---- <div class="backdrop is-hidden" data-modal>-->
-    <div class="backdrop" data-modal>
-      <!-- модальное окно всегда видимо-->
+    <div class="backdrop is-hidden" data-modal>
+      <!--<div class="backdrop" data-modal>  модальное окно всегда видимо-->
       <div class="modal">
         <button class="modal-close" type="button" data-modal-close>
           <svg width="8" height="8" class="icon-close">
