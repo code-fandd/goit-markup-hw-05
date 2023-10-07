@@ -765,6 +765,7 @@ cursor: pointer; для визначення типу курсору на кно
 }
 .sub-svg-class {
   margin-left: 16px;
+  fill: #ffffff;
 }
 /**/
 
