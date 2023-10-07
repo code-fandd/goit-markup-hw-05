@@ -788,3 +788,9 @@ cursor: pointer; для визначення типу курсору на кно
 .social-div {
   margin: 80px;
 }
+.user-privacy-class {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
