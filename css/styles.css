@@ -87,10 +87,6 @@
   background-color: var(--c-primary-dunckel);
   border-radius: 2px;
 }
-
-/*22222 До класу з псевдоелементом ::after додана властивість content: '' для встановлення вмісту,
-   який має бути відображений в псевдоелементі*/
-
 .nav-link:focus {
   color: var(--c-primary-dunckel);
 }
@@ -141,21 +137,10 @@ img {
 .section {
   padding: 12px 64px 12px 0;
 }
-/*универсальный класс для одинаковых 
-отступов между секциями
-
-Цей клас не потрібно ставити у хедер, 
-герой і футер, а так усюди повинен бути) бо там він різний)
-*/
 
 .container {
-  /*
-        max-width:
-            padding-left: padding-right: margin-left:
-             margin-right:
-    }*/
   display: flex;
-  max-width: 1158px; /*почему? как найти?*/
+  max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -173,7 +158,6 @@ img {
   display: inline-block;
   padding: 24px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /*У першому пункті списку з контактами у посиланні в класі заданий стиль transition зі значенням color 250ms cubic-bezier(0.4, 0, 0.2, 1); для плавної зміни кольору текстового контенту*/
 }
 .adress-a:hover {
   color: var(--c-primary-dunckel);
@@ -185,11 +169,9 @@ img {
 /*section 1 Effective Solutions for Your Business */
 .dark-bg-section {
   background-color: var(--c-dunckel);
-  /*padding: 188px  0 292px ;*/
   padding: 188px 0;
   text-align: center;
   margin: 0 auto; /* zentrierter Titel */
-  /*  border: 10px solid #404BBF;*/
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
