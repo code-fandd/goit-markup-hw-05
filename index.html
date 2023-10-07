@@ -462,25 +462,56 @@
     <!-- <div class="backdrop is-hidden" data-modal>-->
     <div class="backdrop" data-modal>
       <div class="modal">
-        <button class="modal-close" type="button" data-modal-close>X</button>
-        <h2 class="forma-h">Leave your contacts and we will call you back</h2>
+        <button class="modal-close" type="button" data-modal-close>
+          <svg width="8" height="8" class="icon-close">
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+
+        <p class="forma-h">Leave your contacts and we will call you back</p>
         <form name="contact-form">
-          <label for="user-name-in">Name</label>
-          <input id="user-name-in" type="text" name="user-name" />
+          <div class="user-form">
+            <label for="user-name" class="user-name-l">Name</label>
+            <div class="user-form-in">
+              <input
+                id="user-name"
+                type="text"
+                name="user-name"
+                class="user-name-class"
+              />
+              <svg width="18" height="24" class="icon-person">
+                <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+              </svg>
+            </div>
+          </div>
+          <div>
+            <label for="user-phone-in">Phone</label>
+            <input id="user-phone-in" type="tel" name="user-phone" />
+          </div>
+          <div>
+            <label for="user-email-in">Emaile</label>
+            <input id="user-email-in" type="email" name="user-email" />
+          </div>
+          <div>
+            <label for="user-comment-in">Comment</label>
+            <textarea
+              id="user-comment-in"
+              type="text"
+              name="user-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div>
+            <input id="user-check-id" type="checkbox" name="user-check" />
+            <label for="user-check-id"
+              >I accept the terms and conditions of the
+              <a href="">Privacy Policy</a>
+            </label>
+          </div>
 
-          <label for="user-phone-in">Phone</label>
-          <input id="user-phone-in" type="tel" name="user-phone" />
-
-          <label for="user-email-in">Emaile</label>
-          <input id="user-email-in" type="email" name="user-email" />
-
-          <label for="user-comment-in">Emaile</label>
-          <input
-            id="user-comment-in"
-            type="text"
-            name="user-comment"
-            placeholder="Text input"
-          />
+          <div>
+            <button type="button" class="user-button"></button>
+          </div>
         </form>
       </div>
     </div>
