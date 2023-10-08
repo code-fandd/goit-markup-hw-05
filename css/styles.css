@@ -699,9 +699,6 @@ cursor: pointer; для визначення типу курсору на кно
 .modal-checkbox-icon {
   opacity: 0;
 }
-/*.modal-checkbox-input:checked + .modal-checkbox-check {
-  background-color: #31d0aa;
-}*/
 
 .modal-checkbox-input:checked + .modal-checkbox-check .modal-checkbox-icon {
   opacity: 1;
@@ -713,7 +710,6 @@ cursor: pointer; для визначення типу курсору на кно
   display: flex;
   align-items: center;
   gap: 12px;
-  margin: 20px 0;
 }
 .user-privacy-clas {
   font-size: 12px;
