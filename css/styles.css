@@ -711,6 +711,27 @@ cursor: pointer; для визначення типу курсору на кно
   fill: transparent;
 }
 
+/*<input type="checkbox" id="user-privacy">
+<span class="user-privacy-span">Текст в span</span>
+
+CSS:
+
+css
+
+/* Стиль для span, когда input в состоянии checked 
+
+
+#user-privacy:checked + .user-privacy-span {
+    background-color: #404bbf;
+}*/
+#user-privacy:checked + .user-privacy-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+.a-privacy-policy {
+  color: #4d5ae5;
+}
 .user-button {
   display: block;
   min-width: 169px;
