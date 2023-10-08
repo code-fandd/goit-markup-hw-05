@@ -688,8 +688,32 @@ cursor: pointer; для визначення типу курсору на кно
 .user-name-class:focus + .icon-person {
   fill: #4d5ae5;
 }
+
+/*!!!!*/
+.modal-checkbox-check {
+  width: 14px;
+  height: 14px;
+  border: 1px solid var(--c-but);
+  border-radius: 2px;
+}
+.modal-checkbox-icon {
+  opacity: 0;
+}
+/*.modal-checkbox-input:checked + .modal-checkbox-check {
+  background-color: #31d0aa;
+}*/
+
+.modal-checkbox-input:checked + .modal-checkbox-check .modal-checkbox-icon {
+  opacity: 1;
+  fill: #31d0aa;
+}
+
 .user-check-div {
   margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 20px 0;
 }
 .user-privacy-clas {
   font-size: 12px;
@@ -697,7 +721,7 @@ cursor: pointer; для визначення типу курсору на кно
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
-.user-privacy-span {
+.modal-chekbox-check {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -808,10 +832,4 @@ css
 
 .social-div {
   margin: 80px;
-}
-.user-privacy-class {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
 }
