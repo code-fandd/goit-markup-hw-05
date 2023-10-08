@@ -601,7 +601,7 @@ cursor: pointer; для визначення типу курсору на кно
 .user-form-in {
   position: relative;
 }
-.user-form {
+.user-form-textarea {
   margin-bottom: 16px;
 }
 .user-name-class {
