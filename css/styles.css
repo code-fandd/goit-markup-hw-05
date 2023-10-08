@@ -685,7 +685,7 @@ cursor: pointer; для визначення типу курсору на кно
   fill: #ffffff;
 }
 
-.user-name-class:focus .icon-person {
+.user-name-class:focus + .icon-person {
   fill: #4d5ae5;
 }
 .user-check-div {
