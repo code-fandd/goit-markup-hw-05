@@ -781,6 +781,7 @@ css
 }
 .user-button {
   display: block;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   font-family: 'Roboto', sans-serif;
