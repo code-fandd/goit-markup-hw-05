@@ -691,18 +691,38 @@ cursor: pointer; для визначення типу курсору на кно
 
 /*!!!!*/
 .modal-checkbox-check {
-  width: 14px;
-  height: 14px;
-  border: 1px solid var(--c-but);
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  fill: transparent;
 }
 .modal-checkbox-icon {
   opacity: 0;
 }
 
-.modal-checkbox-input:checked + .modal-checkbox-check .modal-checkbox-icon {
+.modal-checkbox-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+.modal-checkbox-input:checked + .modal-checkbox-check > .modal-checkbox-icon {
   opacity: 1;
-  fill: #31d0aa;
+}
+.modal-checkbox-input:checked + .modal-checkbox-check {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 
 .user-check-div {
@@ -711,12 +731,7 @@ cursor: pointer; для визначення типу курсору на кно
   align-items: center;
   gap: 12px;
 }
-.user-privacy-clas {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
-}
+
 .modal-chekbox-check {
   width: 16px;
   height: 16px;
