@@ -716,10 +716,22 @@ cursor: pointer; для визначення типу курсору на кно
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
-.modal-checkbox-input:checked + .modal-checkbox-check > .modal-checkbox-icon {
+
+/*
+modal-checkbox-input  - input
+modal-checkbox-label   - label
+modal-checkbox-check  - span в котором лежит 
+modal-checkbox-icon  - иконка
+
+
+*/
+.modal-checkbox-input:checked
+  + .modal-checkbox-label
+  .modal-checkbox-check
+  .modal-checkbox-icon {
   opacity: 1;
 }
-.modal-checkbox-input:checked + .modal-checkbox-check {
+.modal-checkbox-input:checked + .modal-checkbox-label .modal-checkbox-check {
   background-color: var(--c-primary-dunckel);
   border: none;
   fill: #f4f4fd;
