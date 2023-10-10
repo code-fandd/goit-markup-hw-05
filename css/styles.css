@@ -143,6 +143,7 @@ img {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+
 }
 
 .adress {
@@ -856,4 +857,5 @@ css
 
 .social-div {
   margin-right: auto;
+  gap32
 }
